@@ -16,8 +16,7 @@ const Accordion = () => {
 
   return (
     <>
-      <div>
-        
+      <div className=" divide-y-2 text-wrap">
         {FAQs.map(({ question, answer }) => (
           <AccordionLine key={question} question={question} answer={answer} />
         ))}

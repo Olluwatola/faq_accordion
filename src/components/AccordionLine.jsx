@@ -10,9 +10,9 @@ const AccordionLine = ({ question, answer }) => {
     setOpenQuestion(!openQuestion);
   };
   return (
-    <div className=" divide-y-2 ">
+    <div>
       <div className="flex  items-center justify-between py-2">
-        <div className=" text-fuchsia-950 hover:text-pink-700">{question}</div>
+        <div className=" text-fuchsia-950 hover:text-pink-700 font-bold">{question}</div>
         {openQuestion ? (
           <img
             onClick={handleOpenQuestion}

@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/fonts/WorkSans-Bold.ttf) format('truetype');
+  }
+}
+
+body{
+  font-family: "Work Sans", sans-serif;
+}
+
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
